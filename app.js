@@ -17,7 +17,7 @@ function updateParkingStatus() {
                 block.innerHTML = '';
             } else if (status === 1) {
                 block.className = 'parking-block red';
-                block.innerHTML = '<img src="car.png" alt="Car">';
+                block.innerHTML = '<img src="Car.jpg" alt="Car">';
             } else if (status === 2) {
                 block.className = 'parking-block red';
                 block.innerHTML = '<img src="https://t4.ftcdn.net/jpg/05/36/19/15/360_F_536191589_RUpBzTpGj4mrBWSdGY1EBiixEMrKnEff.jpg" alt="Car">';
